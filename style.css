@@ -4,11 +4,20 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+html {
+    height: -webkit-fill-available;
+}
 
+body {
+    min-height: 100vh;
+    position: relative;
+    
+  
+}
 .container{
     width: 100%;
     height: 100vh;
-    background: rgb(243, 243, 243);
+    background: #f3f4f6;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,6 +64,7 @@ form input, form textarea{
     font-weight: lighter;
     color: #606162;
     letter-spacing: 0.2px;
+    
     font-family: HCo Gotham SSm,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
 
 }
@@ -106,8 +116,8 @@ a:hover{
 }
 img{
     position: absolute;
-    top:80%;
-    left:49.5%;
+    top:79%;
+    left:50%;
     transform:translate(-50%,-50%);
 
 }
@@ -132,4 +142,102 @@ img{
     transform:translate(-50%,-50%);
     height: 38px;
     width: 30px;
+}
+.tddddshgtt{
+    position: absolute;
+    top:164%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+.rl56cr5{
+    background: transparent;
+    border-color: aqua;
+    width: 372px;
+    height: 35px;
+    position: absolute;
+    top: 64.7%;
+    left: 3.5%;
+}
+.rffvl56cr5{
+    background: transparent;
+    border-color: aqua;
+    width: 372px;
+    height: 35px;
+    position: absolute;
+    top: 74.3%;
+    left: 3.5%;
+}
+.rffvl156cr5{
+    background: transparent;
+    border-color: aqua;
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    top: -10%;
+    left: -135.3%;
+}
+.rffvl256cr5{
+    background: transparent;
+    border-color: aqua;
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    top: -10%;
+    left: -92.5%;
+}
+.rffvl356cr5{
+    background: transparent;
+    border-color: aqua;
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    top: -10%;
+    left: -51.8%;
+}
+.rffvl456cr5{
+    background: transparent;
+    border-color: aqua;
+    width: 120px;
+    height: 35px;
+    position: absolute;
+    top: -10%;
+    left: -17.3%;
+}
+.rffvl556cr5{
+    background: transparent;
+    border-color: aqua;
+    width: 32px;
+    height: 26px;
+    position: absolute;
+    top: -9.1%;
+    left: 15.8%;
+}
+.rffvl656cr5{
+    background: transparent;
+    border-color: aqua;
+    width: 86px;
+    height: 29px;
+    position: absolute;
+    top: -9.1%;
+    left: 258%;
+}
+.rffvl756cr5{
+    background: transparent;
+    border-color: aqua;
+    width: 78px;
+    height: 26px;
+    position: absolute;
+    top: 87.8%;
+    left: 65.8%;
+}
+.hwedd8g{
+    background: #fefefe;
+    border-color: aqua;
+    width: 400px;
+    height: 26px;
+    position: absolute;
+    top: -11%;
+    left: 23%;
+    border-radius: 2px;
 }
