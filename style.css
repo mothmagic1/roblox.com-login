@@ -4,23 +4,14 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-html {
-    height: -webkit-fill-available;
-}
 
-body {
-    min-height: 100vh;
-    position: relative;
-    
-  
-}
 .container{
     width: 100%;
     height: 100vh;
-    background: #f3f4f6;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #393b3d;
 
 }
 form{
@@ -32,14 +23,15 @@ form{
     max-width: 600px;
     border-radius: 0;
     position:absolute;
-    top:31%;
+    top:43.9%;
     left:49.5%;
     transform:translate(-50%,-50%);
-    width: 400px;
-    height: 500px;
+    width: 500px;
+    height: 580px;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.3em;
+    border-radius: 6px;
 }
 
 form h3{
@@ -53,7 +45,7 @@ form h3{
 
 form input, form textarea{
     border: 0;
-    margin: 9px 0;
+    margin: 110px 0;
     padding: 8px;
     outline: none;
     background: rgb(255, 255, 255);
@@ -64,19 +56,20 @@ form input, form textarea{
     font-weight: lighter;
     color: #606162;
     letter-spacing: 0.2px;
+    margin-top: 260px;
     
     font-family: HCo Gotham SSm,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
 
 }
 form button{
-    padding: 1px;
-    background: #ffffff;
-    color: rgb(104, 104, 104);
+    padding: 0.1vh;
+    background: rgb(104, 104, 104);
+    color: rgb(255, 255, 255);
     font-size: 17px;
     border: 0;
     outline: 10px;
     cursor: pointer;
-    width: 374px;
+    width: 474px;
     margin: 1px auto 7;
     border: 10px solid #606162;
     border-radius: 8px;
@@ -116,8 +109,8 @@ a:hover{
 }
 img{
     position: absolute;
-    top:79%;
-    left:50%;
+    top:80%;
+    left:49.5%;
     transform:translate(-50%,-50%);
 
 }
@@ -143,101 +136,63 @@ img{
     height: 38px;
     width: 30px;
 }
-.tddddshgtt{
+.edch2e{
+    height: 600px;
+    width: 500px;
     position: absolute;
-    top:164%;
-    left:50%;
+    top: 81%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-radius: 10px;
+}
+.tytyhh{
+    height: 270px;
+    width: 490px;
+    position: absolute;
+    top: 24%;
+    left: 50%;
     transform:translate(-50%,-50%);
 
 }
-.rl56cr5{
+.jkhyhh{
+    height: 80px;
+    width: 460px;
+    position: absolute;
+    top: 91.5%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.jknnmhyhh{
+    height: 970px;
+    width: 1879px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.jkhllllyhh{
+    height: 50px;
+    width: 500px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.rtr5{
     background: transparent;
     border-color: aqua;
-    width: 372px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     position: absolute;
-    top: 64.7%;
-    left: 3.5%;
+    top: 1%;
+    left: 1.3%;
 }
-.rffvl56cr5{
+.rlcr5{
     background: transparent;
     border-color: aqua;
-    width: 372px;
-    height: 35px;
+    width: 220px;
+    height: 25px;
     position: absolute;
-    top: 74.3%;
-    left: 3.5%;
-}
-.rffvl156cr5{
-    background: transparent;
-    border-color: aqua;
-    width: 120px;
-    height: 35px;
-    position: absolute;
-    top: -10%;
-    left: -135.3%;
-}
-.rffvl256cr5{
-    background: transparent;
-    border-color: aqua;
-    width: 120px;
-    height: 35px;
-    position: absolute;
-    top: -10%;
-    left: -92.5%;
-}
-.rffvl356cr5{
-    background: transparent;
-    border-color: aqua;
-    width: 120px;
-    height: 35px;
-    position: absolute;
-    top: -10%;
-    left: -51.8%;
-}
-.rffvl456cr5{
-    background: transparent;
-    border-color: aqua;
-    width: 120px;
-    height: 35px;
-    position: absolute;
-    top: -10%;
-    left: -17.3%;
-}
-.rffvl556cr5{
-    background: transparent;
-    border-color: aqua;
-    width: 32px;
-    height: 26px;
-    position: absolute;
-    top: -9.1%;
-    left: 15.8%;
-}
-.rffvl656cr5{
-    background: transparent;
-    border-color: aqua;
-    width: 86px;
-    height: 29px;
-    position: absolute;
-    top: -9.1%;
-    left: 258%;
-}
-.rffvl756cr5{
-    background: transparent;
-    border-color: aqua;
-    width: 78px;
-    height: 26px;
-    position: absolute;
-    top: 87.8%;
-    left: 65.8%;
-}
-.hwedd8g{
-    background: #fefefe;
-    border-color: aqua;
-    width: 400px;
-    height: 26px;
-    position: absolute;
-    top: -11%;
-    left: 23%;
-    border-radius: 2px;
+    top: 69%;
+    left: 28%;
 }
